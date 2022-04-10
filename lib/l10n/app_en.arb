@@ -1,0 +1,13 @@
+{
+    "helloWorld": "English Version",
+    "@helloWorld": {
+      "description": "The conventional newborn programmer greeting"
+    },
+
+  "version": "English Version",
+  "@version": {
+    "description": "The language version of the app"
+  }
+}
+
+
