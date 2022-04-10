@@ -1,31 +1,28 @@
 # Futurama
 
-A new Flutter project.
+A guide to this project.
 
-## Getting Started
+## API
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+This app utilises the http package to access the Futurama API and standard API code to facilitate GET API calls – which are used in the app - as well as POST, DELETE (and so on) calls which are not used within the app. 
 
-### IMPORTANT:
+## DARK AND LIGHT MODES
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+The app uses ThemeData to alternative between light and dark themes. However, due to time constraints both theme colours are the same. The app will inform the user that they are in dark mode on the home page, by replacing the text ‘All Aboard’ with ‘Dark Mode Activated’.
 
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
+## LANGUAGE LOCALISATION
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
+The app will translate between English and Spanish. However, due to time constraints this is only coded for the Home Page language version text (bottom of the page), which will change from ‘English Version’ to ‘Versión en español’ if the device language settings are changed. Note: if running on an emulator the app may need to be stopped and restarted for changes to activate.
 
-### Getting started continued:
+## QUIZ
 
-This project is a starting point for a Flutter application.
+The Quiz is designed to be indicative of the full quiz API. It incorporates 5 questions and a results screen.
 
-A few resources to get you started if this is your first Flutter project:
+## UI
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The UI is designed to follow Futurama branding where applicable while incorporating a clean and modern primary text font. There is basic animation on the homepage. I considered Lottie animations but decided against as identifying a suitable animation to match the branding proved problematic. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## SCREEN TESTING
+
+The app has been tested on all screen sizes.
+
